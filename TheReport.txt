@@ -1,3 +1,14 @@
+/*
+Link: https://www.hackerrank.com/challenges/the-report/problem
+Author Name: Anirudh Dhawan
+*/
+
+/*
+This problem tests your knowlege of Joins and Case statement.
+*/
+
+/*  Solution  */
+
 WITH C AS(
     SELECT a.name as name, b.grade as grade, a.marks as marks
     FROM Students as a
